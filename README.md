@@ -29,15 +29,18 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
+Creating a separate hook component that will hold the same stateful logic, handlesubmit,handleChanges, etc. and exporting all of these smaller functions to be used inside of your components.
+
 
 2. Describe the different phases of the component lifecycle.
-
+Mounting > Updating > Unmounting
 3. Demonstrate an understanding of class component lifecycle methods.
-
+Constructure kicks in, then the render builds up, dCM happens, if state updates due to cDM, redender. cWU is for clearing up any events or other unnecesary handlers.
 4. Define stateful logic.
-
+Generally, anything that will interact with state, any form of state manipulation
 5. Describe how to test a React component with React Testing Library.
-
+You emulate scenarios that a user will possible have. You create as many different interactions that could likely happen and see if your code is making it through the tests.
+Pulls specific areas of the app using unique get or query requests. implement actions on thoses items and evaluate if they passed correctly as instructed in our code.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
